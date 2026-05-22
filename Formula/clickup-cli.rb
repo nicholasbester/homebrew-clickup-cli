@@ -1,26 +1,26 @@
 class ClickupCli < Formula
   desc "CLI for the ClickUp API, optimized for AI agents"
   homepage "https://github.com/nicholasbester/clickup-cli"
-  version "0.12.1"
+  version "0.13.0"
   license "BUSL-1.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/nicholasbester/clickup-cli/releases/download/v0.12.1/clickup-macos-arm64.tar.gz"
-      sha256 "03b676cac29b1f71ac14cdca6589db9839e1c487c42b12e2d9c832174ab65e68"
+      url "https://github.com/nicholasbester/clickup-cli/releases/download/v0.13.0/clickup-macos-arm64.tar.gz"
+      sha256 "e0c2d94cc10e83951d6d6c2eb3a1d815710ec80a191d0ff72584e8592d7121bc"
     else
-      url "https://github.com/nicholasbester/clickup-cli/releases/download/v0.12.1/clickup-macos-x86_64.tar.gz"
-      sha256 "5b2c89cc144e97e89832ae8585f57716c84aa46aff1ba8252e18f312877172c2"
+      url "https://github.com/nicholasbester/clickup-cli/releases/download/v0.13.0/clickup-macos-x86_64.tar.gz"
+      sha256 "f72daf7677452c955d758a5a7b689a3c12fb27e54744bbd51f86e95dc4f385ff"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/nicholasbester/clickup-cli/releases/download/v0.12.1/clickup-linux-arm64.tar.gz"
-      sha256 "e31a3f82b1a34fbcd83fbdc2a4b90a3e20f78a352f49ce04eb41f50bd9f37237"
+      url "https://github.com/nicholasbester/clickup-cli/releases/download/v0.13.0/clickup-linux-arm64.tar.gz"
+      sha256 "af845031d9437dac5d67a2c416fd28b121ce4bcd4b7a37953b80003c06553555"
     else
-      url "https://github.com/nicholasbester/clickup-cli/releases/download/v0.12.1/clickup-linux-x86_64.tar.gz"
-      sha256 "11024d5330f596defd8dc00cd2e70eff10b2750d7c657f42a2376ab11b2460bc"
+      url "https://github.com/nicholasbester/clickup-cli/releases/download/v0.13.0/clickup-linux-x86_64.tar.gz"
+      sha256 "658bfa75d33532d19eadadbb9be85dc5c4942f5f25cc2ddad3f53d290f6e22b4"
     end
   end
 
